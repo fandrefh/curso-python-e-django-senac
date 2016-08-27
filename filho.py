@@ -13,3 +13,9 @@ class Filho(Pessoa):
 
     def chorar(self):
         print("Muleque chorando...")
+
+    def pega_nome_pessoa(self):
+        return "Alguma coisa diferente..."
+
+    def somar(self, n1, n2):
+        return n1 + n2

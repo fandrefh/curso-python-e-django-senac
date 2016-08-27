@@ -4,3 +4,9 @@ class Pessoa(object):
         self.nome = nome
         self.mae = mae
         self.idade = idade
+
+    def pega_nome_pessoa(self):
+        return self.nome
+
+    def somar(self):
+        return 50 + 50
